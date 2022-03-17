@@ -1,0 +1,23 @@
+p{background-color: #b8a6c9}
+li{background: darkseagreen;
+    margin-bottom: 3px;
+}
+.xxx{
+    color: aqua;
+}
+.yyy{
+    font-size: 25px;
+}
+/*#target{*/
+/*    font-weight:bolder;font-size: larger;*/
+/*}*/
+/*p{background: silver !important;*/
+
+/*}*/
+
+p{
+    font-size: 40px;
+    width: 400px;
+    /*height: 100px;*/
+overflow: hidden;
+}
