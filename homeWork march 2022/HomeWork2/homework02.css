@@ -1,0 +1,47 @@
+body, html{
+    scroll-behavior: smooth;
+    background: beige;
+    margin: 0;
+}
+.pets__main{
+    text-align: center;
+    margin: 50px;
+}
+.pets__head{
+    font-size: 20px;
+    display: inline-block;
+    margin-left: 250px;
+    margin-left: 250px;
+}
+img{
+    border: 2px blue solid;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+/*.pets__head{*/
+/*    text-decoration: none;*/
+/*    color: aqua;*/
+/*}*/
+/*.pets__head:hover{*/
+/*    color: yellow;*/
+/*}*/
+a {
+    text-decoration: none;
+    color: #7912d9;
+}
+a:hover {
+    color: darkseagreen;
+}
+.pets__pic{
+    display: inline-block;
+    border-radius: 10px;
+
+}
+.pets__radius{
+    border-radius: 50%;
+    background: green;
+    width: 200px;
+    height: 100px;
+}
+
