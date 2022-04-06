@@ -6,9 +6,8 @@ body {
     width: 1000px;
     border: 8px gray solid;
     border-radius: 8px;
-    /*height: 800px;*/
     padding: 5px;
-    margin: 0 auto;
+    margin: auto;
 }
 .header{
     height: 150px;
@@ -27,10 +26,13 @@ body {
     justify-content: center;
     align-items: center;
 
+
 }
 .left__child{
     display: flex;
     column-gap: 5px;
+    flex-wrap: wrap;
+
 }
 .child{
     height: 150px;
@@ -40,6 +42,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-grow: 1;
+    width: 32%;
 }
 .daddy__left{
     flex-grow: 4;
