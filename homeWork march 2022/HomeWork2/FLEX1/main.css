@@ -1,3 +1,58 @@
-body{
-    margin: 0px;
+body {
+    margin: 0;
+    padding: 0;
+}
+.blok {
+    width: 1000px;
+    border: 8px gray solid;
+    border-radius: 8px;
+    /*height: 800px;*/
+    padding: 5px;
+    margin: 0 auto;
+}
+.header{
+    height: 150px;
+    background: #f3f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.daddy__left__head{
+    height: 150px;
+    margin-top: 5px;
+    background: #f3f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.left__child{
+    display: flex;
+    column-gap: 5px;
+    /*flex-grow: 1;*/
+}
+.child{
+    height: 150px;
+    margin-top: 5px;
+    background: #f3f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+.daddy__left{
+    flex-grow: 3;
+}
+.daddy__rihgt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    background: #f3f0f0;
+    margin-top: 5px;
+    margin-left: 5px;
+
+}
+.daddy{
+    display: flex;
 }
